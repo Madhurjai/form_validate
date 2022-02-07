@@ -37,18 +37,59 @@ function check(name, age, weight) {
     return true
   }
 }
-function logic(name, age, weight) {
-  if (age == 15 && weight < 30) {
-    document.getElementById(
-      'demo',
-    ).innerHTML = `hello ${name} !! your weight is less than recommended value of 30kg at an age of 15`
-  } else if (age == 15 && weight > 50) {
-    document.getElementById(
-      'demo',
-    ).innerHTML = `hello ${name} !!your weight is greater than recommended value of 50kg at an age of 15`
-  } else {
-    document.getElementById(
-      'demo'
-    ).innerHTML = `hello ${name} your weight is perfect !!`
-  }
-}
+
+
+function logic(name,age,weight){
+    if(5 <= age <= 7){
+        if(weight <= 15){
+            document.getElementById(
+                            'demo',
+                          ).innerHTML = `hello ${name} !!your weight is smaller than recommended value of ${weight}kg at an age of ${age}`
+        }
+        else if(weight >= 20){
+            document.getElementById(
+                            'demo',
+                          ).innerHTML = `hello ${name} !!your weight is greater than recommended value of ${weight}kg at an age of ${age}`
+        }
+        else{
+            document.getElementById(
+                            'demo'
+                          ).innerHTML = `hello ${name} your weight is perfect !!`
+        }
+    }
+    if(8<= age <= 10){
+        if(weight <= 21){
+            document.getElementById(
+                            'demo',
+                          ).innerHTML = `hello ${name} !!your weight is smaller than recommended value of ${weight}kg at an age of ${age}`
+        }
+        else if (weight >= 25){
+            document.getElementById(
+                            'demo',
+                          ).innerHTML = `hello ${name} !!your weight is greater than recommended value of ${weight}kg at an age of ${age}`
+
+        }
+        else{
+            document.getElementById(
+                            'demo'
+                          ).innerHTML = `hello ${name} your weight is perfect !!`
+        }}
+        
+        if(16 <= age <= 20){
+            if(weight <= 31){
+                document.getElementById(
+                                'demo',
+                              ).innerHTML = `hello ${name} !!your weight is smaller than recommended value of ${weight}kg at an age of ${age}`
+            }
+            else if(weight >= 40){
+                document.getElementById(
+                                'demo',
+                              ).innerHTML = `hello ${name} !!your weight is greater than recommended value of ${weight}kg at an age of ${age}`
+            }
+            else{
+                document.getElementById(
+                                'demo'
+                              ).innerHTML = `hello ${name} your weight is perfect !!`
+            }
+        }
+    }
