@@ -1,0 +1,39 @@
+.container{
+    width: 600px;
+    padding: 50px;
+    margin: 150px auto;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, #2193b0 , #6dd5ed);
+}
+.user{
+    margin: 20px 100px;
+}
+.lab{
+    font-size: 20px;
+}
+.btn{
+    width: 186px;
+    margin: auto;
+    
+}
+[type = "text"]{
+    padding: 5px;
+    margin-left: 15px;
+    border: 2px solid violet;
+    border-radius: 7px ;
+}
+[type = 'button']{
+    padding: 5px;
+    border: 2px solid purple;
+    border-radius: 10px ;
+    background-color: rgb(123, 97, 150);
+}
+[type = 'button']:hover{
+    background-color: purple;
+    padding: 7px;
+    cursor: pointer;
+}
+marquee{
+    font-size: 30px;
+    margin: 10px;
+}
